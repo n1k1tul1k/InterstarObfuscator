@@ -4,6 +4,7 @@ using dnlib.DotNet.Emit;
 
 namespace TestObfuscator.Modules
 {
+    //new module
     public class EncodeVariablesModule : ICustomModule
     {
         public ModuleDefMD Module { get; set; }
