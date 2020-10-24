@@ -1,0 +1,15 @@
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\bin\Debug\netcoreapp3.1\InterstarObfuscator.exe
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\bin\Debug\netcoreapp3.1\InterstarObfuscator.deps.json
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\bin\Debug\netcoreapp3.1\InterstarObfuscator.runtimeconfig.json
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\bin\Debug\netcoreapp3.1\InterstarObfuscator.runtimeconfig.dev.json
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\bin\Debug\netcoreapp3.1\InterstarObfuscator.dll
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\bin\Debug\netcoreapp3.1\InterstarObfuscator.pdb
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\bin\Debug\netcoreapp3.1\dnlib.dll
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.csprojAssemblyReference.cache
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.AssemblyInfoInputs.cache
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.AssemblyInfo.cs
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.csproj.CoreCompileInputs.cache
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.csproj.CopyComplete
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.dll
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.pdb
+C:\Users\bitdd\RiderProjects\InterstarObfuscator\InterstarObfuscator\obj\Debug\netcoreapp3.1\InterstarObfuscator.genruntimeconfig.cache
