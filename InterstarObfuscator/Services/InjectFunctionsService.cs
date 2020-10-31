@@ -1,53 +1,23 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
 using TestObfuscator.Helpers;
+using TestObfuscator.Modules;
 
-namespace TestObfuscator.Modules
+namespace TestObfuscator.Services
 {
-    public class EncodeVariablesModule : ICustomModule
+    public class InjectFunctionsService
     {
-        public ModuleDefMD ModuleDef { get; set; }
+        public ModuleDefMD Module { get; set; }
+        public InjectFunctionsService(ModuleDefMD moduleDef) => Module = moduleDef;
 
-        public EncodeVariablesModule(ModuleDefMD module) => ModuleDef = module;
-        public void Execute()
+        public void RunService()
         {
-            MethodDef decryptMethod = InjectMethod(ModuleDef, "Decrypt_Base64");
-
-            foreach (TypeDef type in ModuleDef.Types)
-            {
-                if (type.IsGlobalModuleType || type.Name == "Resources" || type.Name == "Settings")
-                    continue;
-
-                foreach (MethodDef method in type.Methods)
-                {
-                    if (!method.HasBody)
-                        continue;
-                    if (method == decryptMethod)
-                        continue;
-
-                    method.Body.KeepOldMaxStack = true;
-
-                    for (int i = 0; i < method.Body.Instructions.Count; i++)
-                    {
-                        if (method.Body.Instructions[i].OpCode == OpCodes.Ldstr)	// String
-                        {
-                            string oldString = method.Body.Instructions[i].Operand.ToString();	//Original String
-
-                            method.Body.Instructions[i].Operand = Base64Encode(oldString);
-                            method.Body.Instructions.Insert(i + 1, new Instruction(OpCodes.Call, decryptMethod));
-                        }
-                    }
-
-                    method.Body.SimplifyBranches();
-                    method.Body.OptimizeBranches();
-                }
-            }
-
+            ModuleDef newModule = EncryptStrings(Module); 
         }
+
         private static MethodDef InjectMethod(ModuleDef module, string methodName)
         {
             ModuleDefMD typeModule = ModuleDefMD.Load(typeof(DecryptionHelper).Module);

@@ -6,15 +6,20 @@
     "projectPath": "C:\\Users\\bitdd\\RiderProjects\\InterstarObfuscator\\InterstarObfuscator\\InterstarObfuscator.csproj",
     "outputPath": "C:\\Users\\bitdd\\RiderProjects\\InterstarObfuscator\\InterstarObfuscator\\obj\\",
     "projectStyle": "PackageReference",
+    "crossTargeting": true,
     "originalTargetFrameworks": [
-      "netcoreapp3.1"
+      "net46",
+      "net461"
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net46": {
+        "projectReferences": {}
+      },
+      "net461": {
         "projectReferences": {}
       }
     },
@@ -25,29 +30,28 @@
     }
   },
   "frameworks": {
-    "netcoreapp3.1": {
+    "net46": {
       "dependencies": {
         "dnlib": {
           "target": "Package",
           "version": "[3.3.2, )"
         }
       },
-      "imports": [
-        "net461",
-        "net462",
-        "net47",
-        "net471",
-        "net472",
-        "net48"
-      ],
-      "assetTargetFallback": true,
-      "warn": true,
-      "frameworkReferences": {
-        "Microsoft.NETCore.App": {
-          "privateAssets": "all"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+    },
+    "net461": {
+      "dependencies": {
+        "dnlib": {
+          "target": "Package",
+          "version": "[3.3.2, )"
         }
       },
       "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+    }
+  },
+  "runtimes": {
+    "win7-x86": {
+      "#import": []
     }
   }
 }

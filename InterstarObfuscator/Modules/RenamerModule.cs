@@ -6,20 +6,21 @@ namespace TestObfuscator.Modules
 {
     public class RenamerModule : ICustomModule
     {
-        public ModuleDefMD Module { get; set; }
+        public ModuleDefMD ModuleDef { get; set; }
         public int RandomStringLenght { get; set; }
         private static Random _random = new Random();
         private int _countOfChanges;
 
         public RenamerModule(ModuleDefMD module, int randomStringLenght)
         {
-            Module = module;
+            ModuleDef = module;
             RandomStringLenght = randomStringLenght;
         }
 
         public void Execute()
         {
-            foreach (var type in Module.GetTypes())
+            
+            foreach (var type in ModuleDef.GetTypes())
             {
                 type.Name = RandomString();
                 foreach (var methodDef in type.Methods.Where(x => !x.IsConstructor && !x.IsVirtual))

@@ -2,6 +2,8 @@
 using System.IO;
 using dnlib.DotNet;
 using TestObfuscator.Modules;
+using TestObfuscator.Services;
+
 namespace TestObfuscator
 {
     class Program
@@ -16,6 +18,7 @@ namespace TestObfuscator
             {
                 //new RenamerModule(module,20),
                 new EncodeVariablesModule(module),
+                new RenamerModule(module,24),
             };
             ExecuteAllModules(modules);
             module.Write(fileName);
