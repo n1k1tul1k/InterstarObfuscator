@@ -17,6 +17,7 @@
         <e p="Program.cs" t="Include" />
       </e>
       <e p="InterstarObfuscator" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Helpers" t="Include">
           <e p="DecryptionHelper.cs" t="Include" />

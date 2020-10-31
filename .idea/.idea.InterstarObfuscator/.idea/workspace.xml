@@ -20,32 +20,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e03ba8-eebd-4810-b062-8c020cf746ce" name="Default Changelist" comment="add new module">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterstarObfuscator/Helpers/DecryptionHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterstarObfuscator/Helpers/InjectHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterstarObfuscator/Helpers/TextHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterstarObfuscator/Services/InjectFunctionsService.cs" afterDir="false" />
+    <list default="true" id="93e03ba8-eebd-4810-b062-8c020cf746ce" name="Default Changelist" comment="add smt new">
+      <change afterPath="$PROJECT_DIR$/InterstarObfuscator/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InterstarObfuscator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InterstarObfuscator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InterstarObfuscator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InterstarObfuscator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator.sln" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/InterstarObfuscator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/InterstarObfuscator.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Helpers/DecryptionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Helpers/DecryptionHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Helpers/InjectHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Helpers/InjectHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Helpers/TextHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Helpers/TextHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Modules/EncodeVariablesModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Modules/EncodeVariablesModule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Modules/ICustomModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Modules/ICustomModule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Modules/RenamerModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Modules/RenamerModule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/bin/Debug/netcoreapp3.1/InterstarObfuscator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/bin/Debug/netcoreapp3.1/InterstarObfuscator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/bin/Debug/netcoreapp3.1/InterstarObfuscator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/bin/Debug/netcoreapp3.1/InterstarObfuscator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/bin/Debug/netcoreapp3.1/TestProject1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/bin/Debug/netcoreapp3.1/TestProject1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/InterstarObfuscator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/InterstarObfuscator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/InterstarObfuscator.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterstarObfuscator/Services/InjectFunctionsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterstarObfuscator/Services/InjectFunctionsService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +44,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/779EEAA5-60FB-4529-9916-315C3944D1B4/32/ICodedToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterstarObfuscator/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/InterstarObfuscator/Helpers/TextHelper.cs" />
-        <option value="$PROJECT_DIR$/InterstarObfuscator/Modules/RenamerModule.cs" />
         <option value="$PROJECT_DIR$/FutureFunctions/Program.cs" />
-        <option value="$PROJECT_DIR$/InterstarObfuscator/Helpers/InjectHelper.cs" />
-        <option value="$PROJECT_DIR$/InterstarObfuscator/Helpers/DecryptionHelper.cs" />
+        <option value="$PROJECT_DIR$/InterstarObfuscator/.gitignore" />
         <option value="$PROJECT_DIR$/InterstarObfuscator/Modules/ICustomModule.cs" />
-        <option value="$PROJECT_DIR$/InterstarObfuscator/Services/InjectFunctionsService.cs" />
+        <option value="$PROJECT_DIR$/InterstarObfuscator/Modules/RenamerModule.cs" />
+        <option value="$PROJECT_DIR$/InterstarObfuscator/Helpers/DecryptionHelper.cs" />
+        <option value="$PROJECT_DIR$/InterstarObfuscator/Helpers/TextHelper.cs" />
+        <option value="$PROJECT_DIR$/InterstarObfuscator/Helpers/InjectHelper.cs" />
         <option value="$PROJECT_DIR$/InterstarObfuscator/Modules/EncodeVariablesModule.cs" />
+        <option value="$PROJECT_DIR$/InterstarObfuscator/Services/InjectFunctionsService.cs" />
         <option value="$PROJECT_DIR$/InterstarObfuscator/Program.cs" />
       </list>
     </option>
@@ -143,7 +131,16 @@
       <workItem from="1603825252407" duration="3629000" />
       <workItem from="1603912418038" duration="931000" />
       <workItem from="1604064364031" duration="789000" />
+      <workItem from="1604177169731" duration="1359000" />
     </task>
+    <task id="LOCAL-00001" summary="add smt new">
+      <created>1604177214835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604177214835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +174,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add smt new" />
+    <option name="LAST_COMMIT_MESSAGE" value="add smt new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="708" y="345" key="#Notifications" timestamp="1603545576398">
@@ -283,6 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603545914336" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604177219444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604177219444" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603825369585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

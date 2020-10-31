@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
-using TestObfuscator.Helpers;
-using TestObfuscator.Modules;
+using InterstarObfuscator.Helpers;
 
 namespace TestObfuscator.Services
 {

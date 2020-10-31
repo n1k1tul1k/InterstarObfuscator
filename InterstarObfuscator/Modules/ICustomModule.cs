@@ -1,6 +1,6 @@
 using dnlib.DotNet;
 
-namespace TestObfuscator.Modules
+namespace InterstarObfuscator.Modules
 {
     public interface ICustomModule
     {

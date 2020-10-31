@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using dnlib.DotNet;
-using TestObfuscator.Modules;
-using TestObfuscator.Services;
+using InterstarObfuscator.Modules;
 
-namespace TestObfuscator
+namespace InterstarObfuscator
 {
     class Program
     {

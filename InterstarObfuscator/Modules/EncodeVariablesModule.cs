@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
-using TestObfuscator.Helpers;
+using InterstarObfuscator.Helpers;
 
-namespace TestObfuscator.Modules
+namespace InterstarObfuscator.Modules
 {
     public class EncodeVariablesModule : ICustomModule
     {

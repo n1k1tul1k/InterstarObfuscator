@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using dnlib.DotNet;
 
-namespace TestObfuscator.Modules
+namespace InterstarObfuscator.Modules
 {
     public class RenamerModule : ICustomModule
     {

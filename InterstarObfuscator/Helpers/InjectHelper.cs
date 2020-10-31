@@ -3,7 +3,7 @@ using System.Linq;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
 
-namespace TestObfuscator.Helpers
+namespace InterstarObfuscator.Helpers
 {
     public class InjectHelper
     {

@@ -1,4 +1,4 @@
-namespace TestObfuscator.Helpers
+namespace InterstarObfuscator.Helpers
 {
     public class TextHelper
     {

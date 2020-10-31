@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace TestObfuscator.Helpers
+namespace InterstarObfuscator.Helpers
 {
     public class DecryptionHelper
     {
