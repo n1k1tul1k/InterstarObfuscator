@@ -5,7 +5,7 @@ using dnlib.DotNet;
 using dnlib.DotNet.Emit;
 using InterstarObfuscator.Helpers;
 
-namespace TestObfuscator.Services
+namespace InterstarObfuscator.Services
 {
     public class InjectFunctionsService
     {

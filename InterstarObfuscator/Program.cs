@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using dnlib.DotNet;
 using InterstarObfuscator.Modules;
@@ -9,13 +10,13 @@ namespace InterstarObfuscator
     {
         static void Main(string[] args)
         {
-            var path = 
-                @"C:\Users\bitdd\RiderProjects\TestObfuscator\TestProject1\bin\Debug\TestProject1.exe";
+            Console.WriteLine("Drop your file (.exe only)");
+            var path = Console.ReadLine().Replace("\"",String.Empty);
+            Console.WriteLine("Enter ");
             var fileName = new FileInfo(path).Name;
             ModuleDefMD module = ModuleDefMD.Load(path);
             List<ICustomModule> modules = new List<ICustomModule>()
             {
-                //new RenamerModule(module,20),
                 new EncodeVariablesModule(module),
                 new RenamerModule(module,24),
             };
