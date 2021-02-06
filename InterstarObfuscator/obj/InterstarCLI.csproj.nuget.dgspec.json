@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bitdd\\Source\\Repos\\InterstarObfuscator\\InterstarObfuscator\\InterstarCLI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bitdd\\Source\\Repos\\InterstarObfuscator\\InterstarObfuscator\\InterstarCLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bitdd\\Source\\Repos\\InterstarObfuscator\\InterstarObfuscator\\InterstarCLI.csproj",
+        "projectName": "InterstarCLI",
+        "projectPath": "C:\\Users\\bitdd\\Source\\Repos\\InterstarObfuscator\\InterstarObfuscator\\InterstarCLI.csproj",
+        "packagesPath": "C:\\Users\\bitdd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bitdd\\Source\\Repos\\InterstarObfuscator\\InterstarObfuscator\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\bitdd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46",
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          },
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "dependencies": {
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        },
+        "net461": {
+          "dependencies": {
+            "dnlib": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

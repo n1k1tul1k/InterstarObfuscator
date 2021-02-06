@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterstarObfuscator", "InterstarObfuscator\InterstarObfuscator.csproj", "{65AB744F-7FDB-41B1-96BD-E81CE10F91AF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutureFunctions", "FutureFunctions\FutureFunctions.csproj", "{7C925F8C-A036-4CE4-92B4-83E46D06933A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterstarCLI", "InterstarObfuscator\InterstarCLI.csproj", "{65AB744F-7FDB-41B1-96BD-E81CE10F91AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +15,11 @@ Global
 		{65AB744F-7FDB-41B1-96BD-E81CE10F91AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65AB744F-7FDB-41B1-96BD-E81CE10F91AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65AB744F-7FDB-41B1-96BD-E81CE10F91AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C925F8C-A036-4CE4-92B4-83E46D06933A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C925F8C-A036-4CE4-92B4-83E46D06933A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C925F8C-A036-4CE4-92B4-83E46D06933A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C925F8C-A036-4CE4-92B4-83E46D06933A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74020926-E744-47D9-A6F8-9D0DF981D48D}
 	EndGlobalSection
 EndGlobal
