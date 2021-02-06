@@ -10,5 +10,6 @@ Small study project connected with IT security research on "dotnet protection an
  1. Proxy module
  2. Custom number protection module
  3. Custom runtime module
+ 4. Private virtual machine (coming soon)
  
- if you want to cooperate with me or offer me - dm me @n1k1tul1k
+ if you want to cooperate with me or make offer - dm me @n1k1tul1k(telegram)
