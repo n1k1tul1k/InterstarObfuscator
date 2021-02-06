@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AVaBXoSekaw24cCPpnpxAKrOgvtm07//6pa70HtOIZLz+9tK4Wje/DXjI005+4p7bIM+KLB4QaXzFZkLSnsWog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bitdd\\Desktop\\source\\InterstarCore\\InterstarCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bitdd\\.nuget\\packages\\dnlib\\3.3.2\\dnlib.3.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

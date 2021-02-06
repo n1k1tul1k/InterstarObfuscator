@@ -1,17 +1,20 @@
-﻿using System;
+﻿using dnlib.DotNet;
+using InterstarCore.Modules;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using dnlib.DotNet;
-using InterstarObfuscator.Modules;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace InterstarObfuscator
+namespace InterstarCLI
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Drop your file (.exe only)");
-            var path = Console.ReadLine().Replace("\"",String.Empty);
+            var path = Console.ReadLine().Replace("\"", String.Empty);
             Console.WriteLine("Enter ");
             var fileName = new FileInfo(path).Name;
             ModuleDefMD module = ModuleDefMD.Load(path);
