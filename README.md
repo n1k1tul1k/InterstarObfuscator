@@ -5,6 +5,7 @@ Small study project connected with IT security research on "dotnet protection an
 1. Renamer
 2. Patcher
 3. String Encryptions
+4. Junk code protection
 
 ### Future
  1. Proxy module
