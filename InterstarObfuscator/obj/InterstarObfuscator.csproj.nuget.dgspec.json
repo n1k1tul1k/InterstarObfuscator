@@ -29,9 +29,6 @@
         "frameworks": {
           "net46": {
             "projectReferences": {}
-          },
-          "net461": {
-            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -42,15 +39,6 @@
       },
       "frameworks": {
         "net46": {
-          "dependencies": {
-            "dnlib": {
-              "target": "Package",
-              "version": "[3.3.2, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        },
-        "net461": {
           "dependencies": {
             "dnlib": {
               "target": "Package",
