@@ -1,4 +1,4 @@
-# InterstarObfuscator
+# InterstarObfuscator (Version 1.2.0)
 Project connected with "dotnet protection and security" created by @n1k1tul1k(inst/github/twitter)
 (Its only basic version of main obfuscator, if u want more - dm me)
 ### Functions list
