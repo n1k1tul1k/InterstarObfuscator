@@ -1,5 +1,6 @@
 # InterstarObfuscator
-Securuty project connected with "dotnet protection and security" created by @n1k1tul1k(inst/github/twitter)
+Project connected with "dotnet protection and security" created by @n1k1tul1k(inst/github/twitter)
+(Its only basic version of main obfuscator, if u want more - dm me)
 ### Functions list
 
 1. Renamer
@@ -15,6 +16,6 @@ Securuty project connected with "dotnet protection and security" created by @n1k
  4. Private virtual machine (in development)
  5. Private Obfuscator (in development)
  6. WebPanel update (comming soon)
- 7. 
+ 7.  
  
  if you want to cooperate with me or make offer - dm me @n1k1tul1k(telegram)
